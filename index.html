@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce. Preentrega 2</title>
+</head>
+<body>
+    <h1>Simulador de ecommerce</h1>
+
+    <form>
+      <label>Nombre del producto:</label>
+      <input type="text" id="nombre" /><br/>
+      <label>Precio del producto:</label>
+      <input type="number" id="precio" /><br/>
+      <button type="button" id="btnAgregar">Agregar al carrito</button>
+    </form>
+
+    <h2>Carrito de compras</h2>
+    <ul id="listaProductos"></ul>
+    <h3>Total de la compra: <span id="total">$0.00</span></h3>
+    <button type="button" id="btnProcesarPedido">Procesar pedido</button>
+  </body>
+  <script src="main.js"></script>
+</html>
